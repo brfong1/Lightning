@@ -16,6 +16,9 @@ void setup()
   line(35, 180, 43, 185);
   line(25, 210, 35, 220);
   line(35, 220, 43, 215);
+  fill(#46CCFF);
+  stroke(0);
+  ellipse(400,200,40,90);
   frameRate(rate);
 }
 void draw()
@@ -47,6 +50,9 @@ void draw()
     line(35, 180, 43, 185);
     line(25, 210, 35, 220);
     line(35, 220, 43, 215);
+      fill(#46CCFF);
+  stroke(0);
+  ellipse(400,200,40,90);
   } else
   {
     rate++;
@@ -63,4 +69,7 @@ void mousePressed()
   line(35, 180, 43, 185);
   line(25, 210, 35, 220);
   line(35, 220, 43, 215);
+  fill(#ED7C48);
+  stroke(0);
+  ellipse(400,200,40,90);
 }
